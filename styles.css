@@ -241,6 +241,21 @@ body {
     transform: translateY(-10px);
 }
 
+/* Real image styling */
+.real-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.real-image:hover {
+  transform: translateY(-10px);
+}
+
 /* Section Styles */
 section {
     padding: 100px 0;
