@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', Libre Bodoni, serif;
+    font-family: 'Libre Bodoni', Montserrat, serif;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -124,6 +124,7 @@ body {
 }
 
 .hero-title {
+    display: block;
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -237,17 +238,20 @@ section {
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
+    max-width: 700px; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
 .about-text p {
-    font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
+    font-size: 1.2rem;
+    color: #666; 
+    margin-bottom: 1.2rem;
+    line-height: 2;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .skills h3 {
@@ -255,12 +259,14 @@ section {
     font-weight: 600;
     margin-bottom: 1rem;
     color: #333;
+    text-align: center;
 }
 
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    justify-content: center;
 }
 
 .skill-tag {
@@ -287,7 +293,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #fff;
+    background: #lightgray;
 }
 
 .contact-content {
@@ -302,7 +308,11 @@ section {
     font-weight: 600;
     margin-bottom: 1rem;
     color: #333;
+    text-align: left;
+    white-space: nowrap; 
 }
+
+
 
 .contact-info p {
     color: #666;
