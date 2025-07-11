@@ -451,6 +451,30 @@ section {
     }
 }
 
+.image-column {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr); /* Desktop: 5 columns */
+}
+
+@media (max-width: 768px) {
+  .image-column {
+    grid-template-columns: repeat(3, 1fr); /* Mobile: 3 columns */
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none; /* Hide full nav on small screens */
+  }
+
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
