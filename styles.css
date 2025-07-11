@@ -383,49 +383,6 @@ section {
     width: 20px;
 }
 
-/* Project Grid Styling */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-/* Project Card Styling */
-.project-card {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-image {
-  width: 100%;
-  height: 400px; /* or set a fixed height based on your desired aspect ratio */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Override previous .real-image to fill container */
-.real-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.real-image:hover {
-  transform: scale(1.03);
-}
-
 /* Footer */
 .footer {
     background: #333;
