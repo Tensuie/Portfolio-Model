@@ -9,6 +9,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.section-divider {
+    width: 60px;
+    height: 3px;
+    background-color: #000; /* Or #333 if you prefer dark gray */
+    border: none;
+    margin: 1rem 0 2rem;
+}
+
 body {
     font-family: 'Libre Bodoni', Montserrat, serif;
     line-height: 1.6;
