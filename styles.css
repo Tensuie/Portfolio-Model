@@ -24,6 +24,20 @@ body {
     padding: 0 20px;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px; /* space between bars */
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
 /* Navigation */
 .navbar {
     position: fixed;
