@@ -42,11 +42,8 @@ To add images:
 <img src="images/your-image.jpg" alt="Description">
 ```
 
-
-### 3. Vercel (Free)
-1. Sign up at [Vercel](https://vercel.com)
-2. Connect your GitHub repository
-3. Deploy automatically on every push
+3. Vercel (Free)
+ Made on [Vercel](https://vercel.com)
 
 
  Browser Support
