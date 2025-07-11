@@ -9,12 +9,12 @@ html {
     scroll-behavior: smooth;
 }
 
-.section-divider {
-    width: 60px;
-    height: 3px;
-    background-color: #000; /* Or #333 if you prefer dark gray */
+.full-divider {
+    width: 100vw; /* Full width of the viewport */
+    height: 2px;
+    background-color: #000; /* Black line */
     border: none;
-    margin: 1rem 0 2rem;
+    margin: 2rem 0; /* Adds space above and below */
 }
 
 body {
